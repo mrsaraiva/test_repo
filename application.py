@@ -6,7 +6,7 @@ application.debug = True
 @application.route('/', methods=['GET'])
 
 def hello():
-    VERSION = '0.14'
+    VERSION = '0.15'
     str = '<p>Hello, world!<br><br> This is version {}</p>'.format(VERSION)
     return str
 
